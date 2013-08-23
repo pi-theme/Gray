@@ -1,0 +1,46 @@
+<?php
+// Load translation data
+$this->i18nTheme('main');
+// Load Bootstrap css by Twitter Team
+$this->bootstrap('css/bootstrap-responsive.min.css');
+// Load style.css
+$this->css($this->assetTheme('css/style.css'));
+?>
+<!DOCTYPE HTML>
+<html lang="<?php echo $locale ?>">
+<head>
+    <meta charset="<?php echo $charset; ?>">
+</head>
+<body id="pi-<?php echo Pi::service('module')->current(); ?>" class="<?php echo $locale; ?>">
+	<div id="pi-wrapper" class="container">
+		<div class="row">
+			<!-- Start Header -->
+			<header id="pi-header" class="span12">
+				<div id="pi-header-top" >
+					<div id="pi-header-title"><h1><a href="<?php echo Pi::url('www'); ?>" title="<?php echo $this->escapeHtml($sitename); ?>" class="header-logo"><?php echo $this->escapeHtml($sitename); ?></a></h1></div>
+				</div>
+			</header>
+			<!-- Start Content -->
+			<section id="pi-canvas" class="span12">
+				<div class="row">
+				   <div class="span12">
+						<div id="canvas-page">	
+							 <!-- Module content starts -->
+			             <?php if (!empty($content)) { ?>
+			                 <div id="pi-content" class="pi-zone-module row-fluid"><?php echo $content; ?></div>
+			             <?php } ?>
+			             <!-- Module content ends -->
+						</div>
+					</div>	
+				</div>		
+			</section>
+			<!-- Start Footer -->
+			<footer id="pi-footer" class="span12">
+				<div id="pi-footer-body">
+	            <div id="pi-footer-copyright">&copy; <a href="<?php echo Pi::url('www'); ?>" title="<?php echo $this->escape($sitename); ?>"><?php echo $this->escape($sitename); ?></a> | Powered by <a href="http://www.xoopsengine.org" title="Pi Engine" target="_blank">Pi Engine</a> | Design of <a href="http://www.xoopsengine.org" title="Pi Engine" target="_blank">Pi Engine</a></div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

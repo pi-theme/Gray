@@ -1,0 +1,18 @@
+<?php
+// Load Bootstrap css by Twitter Team
+$this->bootstrap('css/bootstrap-responsive.min.css');
+// Load style.css
+$this->css($this->assetTheme('css/style.css'));
+?>
+<!DOCTYPE HTML>
+<html lang="<?php echo $locale; ?>">
+<head>
+    <meta charset="<?php echo $charset; ?>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="pi-<?php echo Pi::service('module')->current(); ?>" class="<?php echo $locale; ?>">
+	<div id="pi-wrapper" class="container">
+		<?php if (!empty($content)) { ?><div class="pi-zone-module"><?php echo $content; ?></div><?php } ?>
+	</div>
+</body>
+</html>

@@ -1,0 +1,341 @@
+/* beginning of the applicable styles */
+html, body {
+	background-image: url(../image/portfolio-top-pattern.jpg);
+	background-repeat: repeat;
+}
+
+a {
+	color: #820101;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #E72222;
+}
+
+#pi-header {
+	/* background-color: #fff; */
+}
+
+#pi-header-top {
+	padding: 10px;
+}
+
+#pi-header-title {
+	padding: 0;
+	margin: 0;
+	background-image: url(../image/logo.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 70px;
+}
+
+#pi-header-title-text {
+	padding: 20px 90px 0 90px;
+}
+
+#pi-header-title h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 2em;
+	float: left;
+}
+
+#pi-header-title h2 {
+	padding: 0 10px 0 10px;
+	margin: 0 10px 0 10px;
+	font-size: 1em;
+	float: left;
+	border-left: 1px solid #000;
+}
+
+#pi-header-title h1 a {
+	font-family: 'Droid Arabic Naskh', Tahoma;
+	color: #820101;
+}
+
+#pi-header-title h1 a:hover {
+	text-decoration: none;
+	color: #E72222;
+}
+
+#pi-header-nav a {
+	color: #fff;
+}
+
+#pi-header-nav a:hover {
+	color: #E72222;
+}
+
+#pi-header-banner {
+	background-image: url(../image/banner.jpg);
+	height: 300px;
+	width: 100%;
+	background-position: center center;
+}
+
+#pi-canvas {
+	background-image: url(../image/pattern1.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	vertical-align: top;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#pi-canvas-content {
+	padding: 10px;
+}
+
+#pi-content {
+	padding: 0 0 0 15px;
+}
+
+#pi-footer {
+
+}
+
+#pi-footer h3 {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+#pi-footer-bar-1 {
+	background-color: #2d2d2d;
+	color: #fff;
+}
+
+#pi-footer-bar-2 {
+	text-align: center;
+	background-color: #820101;
+	color: #fff;
+}
+
+#pi-footer-copyright {
+	padding: 12px;
+}
+
+#pi-footer a {
+	color: #848484;
+}
+
+#pi-footer a:hover {
+	color: #E72222;
+	text-decoration: none;
+}
+
+#pi-footer li {
+	border-bottom: 1px dotted #848484;
+	padding: 3px 1px;
+	list-style: none;
+}
+/* ==== items ==== */
+.item {
+	padding: 5px;
+	margin: 2px;
+}
+
+.itemList {
+	padding: 1px;
+	margin: 1px;
+}
+
+.itemHead {
+	background-image: url(../image/title-border.png);
+	background-position: 50% 45px;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+}
+
+.itemTitle {
+	text-align: center;
+}
+.itemTitle h2 {
+}
+
+.itemInfo {
+	font-size: .8em;
+	text-align: right;
+	margin: 3px 0 0 0;
+}
+
+.itemCategory, .itemPoster, .itemPostDate, .itemStats, .itemComments {
+	padding: 1px 2px;
+}
+
+.itemBody {
+	font-size: 1em;
+	text-align: justify;
+	font-weight: normal;
+	padding: 5px;
+}
+
+.itemRotator {
+	text-shadow: 1px 1px 1px #f0f0f0;
+	font-size: 1.1em;
+}
+
+.itemImage {
+	margin: 2px;
+	padding: 2px;
+	float: left;
+}
+
+.itemImage img {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.itemImage a:hover {
+	background: none;
+}
+
+.itemImagedesc {
+	font-size: .8em;
+	color: #aaa;
+	text-align: center;
+}
+
+.itemText {
+}
+
+.itemFoot {
+	margin: 5px 0 0 0;
+}
+
+.itemNav {
+	padding: 2px;
+	margin: 2px;
+}
+
+.itemNext {
+	float: right;
+}
+
+.itemPrev {
+	float: left;
+}
+
+.itemIcons {
+	float: left;
+}
+
+.itemSys {
+	float: right;
+}
+
+.itemGplus, .itemfacebook, .itemtwitter {
+	padding: 2px 5px;
+}
+
+.itemMore {
+}
+
+.spotlight {
+	padding: 10px;
+	margin: 10px;
+	background-color: #f9f9f9;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.spotlightTitle h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.spotlightTitle {
+	border-bottom: 1px dotted #ccc;
+}
+
+/* Paginator */
+.paginator {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Base */
+
+/* Layout */
+.pi-main-left {
+    margin-left: 320px;
+}
+
+.pi-main-right {
+    margin-right: 320px;
+}
+
+.pi-zone-1 {
+    float: left;
+    width: 300px;
+}
+
+.pi-zone-8 {
+    float: right;
+    width: 300px;
+}
+
+.pi-zone-1 {
+    float: left;
+    width: 300px;
+}
+
+.pi-zone-3,
+.pi-zone-5 {
+    width: 50%;
+    float: left;
+}
+
+.pi-zone-4,
+.pi-zone-6 {
+    float: right;
+    width: 50%;
+}
+
+.pi-zone-3 .pi-block,
+.pi-zone-5 .pi-block {
+    margin-right: 10px;
+}
+
+.pi-zone-4 .pi-block,
+.pi-zone-6 .pi-block {
+    margin-left: 10px;
+}
+
+.pi-module-content,
+.pi-zone-99 {
+    clear: both;
+}
+
+.pi-block {
+	margin-bottom: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+	padding: 8px;
+}
+
+.pi-block-header {
+	margin: 2px 0 2px 0;
+	padding: 0 0 5px 0;
+	height: 50px;
+}
+
+.pi-block-title {
+	margin: 0 !important;
+	padding: 5px 5px 15px 5px !important;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(../image/title-border.png);
+	background-position: 50% 30px;
+	background-repeat: no-repeat;
+}
+
+.pi-block-body {
+	padding: 1px;
+	margin: 1px;
+}
+

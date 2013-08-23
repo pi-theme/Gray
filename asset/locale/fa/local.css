@@ -1,0 +1,369 @@
+body {
+	font-family: Tahoma;
+	font-size: 13px;
+	direction: rtl;
+}
+
+.table-bordered td table {
+	border: none;
+	width: 100%
+}
+
+#quick_reply_form {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.table-bordered td table td:last-child {
+	border-left: 0px none;
+}
+
+table[id^="thx"] tr {
+	background: #EFEFEF;
+}
+
+.pagination a {
+	margin-bottom: 0px !important;
+	padding: 4px 9px !important;
+	line-height: 18px !important;
+}
+
+#quickreply_e .trow1 .smalltext br {
+	display: none !important;
+}
+
+#quickreply_e .trow1 .smalltext label {
+	margin: 0px !important;
+}
+
+.messageEditor {
+
+}
+
+#clickable_smilies {
+	width: auto !important;
+	margin: 0px auto;
+}
+
+#editor_toolbar_topformatting > *, #editor_toolbar_formatting > * {
+	float: right !important;
+}
+
+/** ----**/
+blockquote {
+	border-left: 0 none;
+	border-right: 5px solid #EEEEEE;
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.navbar .brand {
+	float: right;
+}
+
+.navbar .form-inline {
+	display: inline-block;
+	margin: 0px;
+}
+
+/* Subnav */
+.subnav {
+	width: 100%;
+	height: 36px;
+	background-color: #eeeeee; /* Old browsers */
+	background-repeat: repeat-x; /* Repeat the gradient */
+	background-image: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Chrome 10+,Safari 5.1+ */
+	background-image: -ms-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* IE10+ */
+	background-image: -o-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Opera 11.10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+	background-image: linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* W3C */
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.subnav .nav {
+	margin-bottom: 0;
+}
+
+.subnav .nav > li > a {
+	margin: 0;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	border-left: 1px solid #f5f5f5;
+	border-right: 1px solid #e5e5e5;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.subnav .nav > .active > a,
+.subnav .nav &gt;
+.active > a:hover {
+	padding-left: 13px;
+	color: #777;
+	background-color: #e9e9e9;
+	border-right-color: #ddd;
+	border-left: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+	box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+}
+
+.subnav .nav > .active > a .caret, .subnav .nav > .active > a:hover .caret {
+	border-top-color: #777;
+}
+
+.subnav .nav > li:first-child > a, .subnav .nav > li:first-child > a:hover {
+	border-left: 0;
+	padding-left: 12px;
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+
+.subnav .nav > li:last-child > a {
+	border-right: 0;
+}
+
+.subnav .dropdown-menu {
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	margin-left: 4px
+}
+
+.label {
+	font-size: 12px;
+	font-family: 'Droid Arabic Naskh', Tahoma;
+}
+
+.pull-left {
+	float: right !important;
+}
+
+.pull-right {
+	float: left !important;
+}
+
+.table th, .table td {
+	text-align: right;
+}
+
+.navbar .nav {
+	float: right
+}
+
+.navbar .nav > li {
+	float: right
+}
+
+body {
+	font-family: 'Droid Arabic Naskh', Tahoma, Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-family: 'Droid Arabic Naskh', Tahoma, Helvetica, Arial, sans-serif;
+}
+
+input, button, select, textarea {
+	font-family: 'Droid Arabic Naskh', Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.navbar-search .search-query {
+	font-family: 'Droid Arabic Naskh', Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.pagination a {
+	float: right;
+}
+
+.pagination {
+	direction: ltr !important;
+}
+
+.pagination a {
+	border-width: 1px 0 1px 1px
+}
+
+.pagination li:first-child a {
+	border-right-width: 1px;
+	border-radius: 0 3px 3px 0
+}
+
+.close {
+	float: left;
+}
+
+.radio, .checkbox {
+	padding-right: 18px;
+	padding-left: 0;
+}
+
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+	float: right;
+	margin-right: -18px;
+	margin-left: 0;
+}
+
+.posticon > label {
+	float: right;
+	margin-left: 22px
+}
+
+.posticon > br {
+	clear: right;
+}
+
+.codeblock code {
+	text-align: left;
+}
+
+.nav-tabs > li, .nav-pills > li {
+	float: right;
+}
+
+.navbar .navbar-text {
+	line-height: 18px
+}
+
+/* Button:Like.* */
+.btn-like, .btn-like:hover {
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-like.active {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-like {
+	background-color: #D74DD3;
+	*background-color: #BE2EBB;
+	background-image: -ms-linear-gradient(top, #EB5FE8, #BE2EBB);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EB5FE8), to(#BE2EBB));
+	background-image: -webkit-linear-gradient(top, #EB5FE8, #BE2EBB);
+	background-image: -o-linear-gradient(top, #EB5FE8, #BE2EBB);
+	background-image: -moz-linear-gradient(top, #EB5FE8, #BE2EBB);
+	background-image: linear-gradient(top, #EB5FE8, #BE2EBB);
+	background-repeat: repeat-x;
+	border-color: #BE2EBB #BE2EBB #802078;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr = '#EB5FE8', endColorstr = '#BE2EBB', GradientType = 0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled = false);
+}
+
+.btn-like:hover, .btn-like:active, .btn-like.active, .btn-like.disabled, .btn-like[disabled] {
+	background-color: #BE2EBB;
+	*background-color: #A72CA4;
+}
+
+.btn-like:active, .btn-like.active {
+	background-color: #93268F \ 9;
+}
+
+.btn-group.open .btn-like.dropdown-toggle {
+	background-color: #BE2EBB;
+}
+
+.btn-like.caret {
+	border-top-color: white;
+	border-bottom-color: white;
+	opacity: 0.75;
+	filter: alpha(opacity = 75);
+}
+
+.btn-like, .btn-like:hover {
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-like.active {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.btn {
+	font-size: 12px;
+	padding: 4px 7px;
+}
+
+.btn-group > .btn:first-child {
+	margin-left: 0;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-bottom-right-radius: 4px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius-topleft: 0;
+	border-top-left-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+	border-bottom-left-radius: 0;
+}
+.btn-group > .btn:last-child, .btn-group > .dropdown-toggle {
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-left-radius: 4px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topright: 0;
+	border-top-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius-bottomright: 0;
+	border-bottom-right-radius: 0;
+}
+
+.btn-group-vertical .btn:first-child {
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+.btn-group-vertical .btn:last-child {
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+.btn-group-vertical .btn-large:first-child {
+	-webkit-border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+.btn-group-vertical .btn-large:last-child {
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+}
+
+.form-horizontal .control-label {
+	float: right !important;
+}
+
+.form-horizontal .controls {
+	*padding-left: 0;
+	margin-left: 0;
+	*margin-left: 0;
+	*padding-right: 20px;
+	margin-right: 180px;
+	*margin-right: 0;
+}
+
+.form-horizontal .what-this {
+	float: right;
+}
+
+.tagbar a {
+	font-family: 'Droid Arabic Naskh', Tahoma !important;
+	font-size: 12px;
+}
